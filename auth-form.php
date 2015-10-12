@@ -4,7 +4,6 @@ require_once(__DIR__ . "/templates/header.php");
 
 $user = "egtonk@gmail.com";
 $sHash = "46f94c8de14fb36680850768ff1b7f2a"; //123qwe
-$sHash = "46f94c8de14fb36680850768ff1b7f2a"; //123qwe
 
 $bValidate = true;
 $aErrors['email'] = false;
