@@ -17,6 +17,17 @@ class Helpers {
         return false;
     }
 
+    public static function isAuth(){
+
+    if (!$_SESSION['user_id']) {
+
+    header('Location: http://' . BASE_URL . '/auth.php');
+
+    }
+        return true;
+}
+
+
     public static function render($template, $vars){
 
         if (isset($vars)) {
